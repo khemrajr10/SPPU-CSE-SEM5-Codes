@@ -75,3 +75,307 @@ def Main() :
 
 
 Main()
+
+
+
+
+
+
+
+
+
+
+---
+
+# 1. Selection Sort
+
+*(Important 4M / 6M question)*
+
+In Data Structures and Algorithms, Selection Sort is a simple comparison-based sorting technique.
+
+---
+
+## 📌 Definition
+
+Selection Sort is a sorting algorithm in which:
+
+* the **minimum element is repeatedly selected**
+* and placed at its correct position in the sorted part of array.
+
+---
+
+## ⚙️ Working Principle
+
+```text id="ss1"
+Find minimum element
+      ↓
+Swap with first unsorted position
+      ↓
+Move boundary of sorted part
+      ↓
+Repeat
+```
+
+---
+
+## 🔄 Example
+
+Array:
+
+```text id="ss2"
+[64, 25, 12, 22, 11]
+```
+
+### Pass 1:
+
+Minimum = 11 → swap with 64
+
+```text id="ss3"
+[11, 25, 12, 22, 64]
+```
+
+### Pass 2:
+
+Minimum = 12
+
+```text id="ss4"
+[11, 12, 25, 22, 64]
+```
+
+### Pass 3:
+
+Minimum = 22
+
+```text id="ss5"
+[11, 12, 22, 25, 64]
+```
+
+---
+
+## ⏱ Time Complexity
+
+O(n^2)
+
+---
+
+## 🧠 Space Complexity
+
+O(1)
+
+---
+
+## 👍 Advantages
+
+* Simple logic
+* Less swapping compared to Bubble Sort
+* No extra memory required
+
+---
+
+## 👎 Disadvantages
+
+* Very slow for large data
+* Always O(n²)
+
+---
+
+# 2. Bubble Sort
+
+*(Very important viva question)*
+
+---
+
+## 📌 Definition
+
+Bubble Sort is a sorting algorithm in which:
+
+* adjacent elements are compared
+* swapped if they are in wrong order
+* largest element “bubbles” to end after each pass
+
+---
+
+## ⚙️ Working Principle
+
+```text id="bs1"
+Compare adjacent elements
+        ↓
+Swap if required
+        ↓
+Repeat passes
+        ↓
+Largest element settles at end
+```
+
+---
+
+## 🔄 Example
+
+Array:
+
+```text id="bs2"
+[5, 1, 4, 2]
+```
+
+### Pass 1:
+
+```text id="bs3"
+[1, 4, 2, 5]
+```
+
+### Pass 2:
+
+```text id="bs4"
+[1, 2, 4, 5]
+```
+
+---
+
+## ⏱ Time Complexity
+
+Worst / Average:
+O(n^2)
+
+Best case (already sorted):
+O(n)
+
+---
+
+## 🧠 Space Complexity
+
+O(1)
+
+---
+
+## 👍 Advantages
+
+* Very easy to understand
+* Stable sorting algorithm
+* Good for small datasets
+
+---
+
+## 👎 Disadvantages
+
+* Very slow
+* Too many swaps
+* Not suitable for large data
+
+---
+
+# 3. Quick Sort
+
+*(Most important algorithm for exams)*
+
+---
+
+## 📌 Definition
+
+Quick Sort is a divide and conquer algorithm in which:
+
+* a **pivot element** is selected
+* array is partitioned into two parts:
+
+  * elements smaller than pivot
+  * elements greater than pivot
+* recursively sorted
+
+---
+
+## ⚙️ Working Principle
+
+```text id="qs1"
+Choose Pivot
+     ↓
+Partition Array
+     ↓
+Left < Pivot < Right
+     ↓
+Recursively sort subarrays
+```
+
+---
+
+## 🔄 Example
+
+Array:
+
+```text id="qs2"
+[50, 30, 70, 10, 90]
+```
+
+### Step 1: Pivot = 50
+
+Partition:
+
+```text id="qs3"
+[30, 10, 50, 70, 90]
+```
+
+### Step 2: Sort left part:
+
+```text id="qs4"
+[10, 30]
+```
+
+### Step 3: Right part already sorted:
+
+```text id="qs5"
+[70, 90]
+```
+
+---
+
+## ⏱ Time Complexity
+
+Best / Average:
+O(n\log n)
+
+Worst case:
+O(n^2)
+
+---
+
+## 🧠 Space Complexity
+
+O(\log n)
+
+---
+
+## 👍 Advantages
+
+* Very fast in practice
+* Efficient for large datasets
+* In-place sorting
+
+---
+
+## 👎 Disadvantages
+
+* Worst case is O(n²)
+* Depends on pivot selection
+* Recursive overhead
+
+---
+
+# 📊 Final Comparison Table
+
+| Algorithm      | Time Complexity | Space    | Efficiency |
+| -------------- | --------------- | -------- | ---------- |
+| Quick Sort     | O(n log n)      | O(log n) | Best       |
+| Selection Sort | O(n²)           | O(1)     | Slow       |
+| Bubble Sort    | O(n²)           | O(1)     | Slowest    |
+
+---
+
+# 🎯 Final Viva Answer
+
+> Selection Sort selects minimum element, Bubble Sort compares adjacent elements repeatedly, and Quick Sort uses divide and conquer with pivot partitioning for efficient sorting.
+
+---
+
+If you want next, I can give:
+✔ 10 viva questions from these 3 algorithms
+✔ difference table (very important 4M answer)
+✔ or handwritten-style short notes for revision
+
