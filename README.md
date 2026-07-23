@@ -1,43 +1,63 @@
 # SPPU-CSE-SEM5-Codes
 
-Welcome to my Semester 5 repository.
-
-This repository contains the practicals, assignments, notes, programs, and other academic work that I completed during Semester 5 of my Computer Engineering degree under Savitribai Phule Pune University (SPPU).
-
-I started this repository mainly to keep all my practical work organized and to avoid losing files across different folders and devices. Over time, it also became a great way to practice Git and GitHub while maintaining a record of my learning journey.
-
-Instead of uploading everything at the end of the semester, I try to update this repository regularly whenever I complete a practical, assignment, or experiment.
+A collection of practical implementations, assignments, notes, programs, and academic work completed during **Semester 5 of Computer Engineering** under **Savitribai Phule Pune University (SPPU).**
 
 ---
 
-## What You'll Find Here
+## About This Repository
 
-This repository contains work related to Semester 5 subjects, including:
+This repository contains subject-wise practical work, programming exercises, assignments, and learning resources developed throughout Semester 5.
 
-### Database Management Systems (DBMS)
+The primary goal of creating this repository was to maintain academic work in an organized manner while building consistency with **Git and GitHub workflows**.
 
-* SQL queries
+Instead of storing practical files across multiple folders and devices, this repository acts as a centralized archive of my learning journey, experiments, and semester progress.
+
+The repository is updated regularly as new practicals, assignments, and improvements are completed.
+
+---
+
+## Contents
+
+This repository includes work from the following Semester 5 subjects:
+
+## Database Management Systems (DBMS)
+
+Includes:
+
+* SQL queries and implementations
 * PL/SQL programs
 * Database design concepts
 * Normalization examples
 * Practical assignments and experiments
 
-### Computer Networks and Security (CNS)
+---
 
-* Network-related practicals
-* Protocol implementations
-* Networking concepts and assignments
+## Computer Networks and Security (CNS)
 
-### Theory of Computation (TOC)
+Includes:
 
-* DFA and NFA concepts
+* Network programming practicals
+* Protocol-related implementations
+* Networking concepts
+* Security-related assignments and experiments
+
+---
+
+## Theory of Computation (TOC)
+
+Includes:
+
+* Finite Automata (DFA/NFA)
 * Regular expressions
 * Context-free grammars
-* Turing machine-related exercises
+* Turing machine exercises
+* Computational theory problems
 
-### LP-I (Laboratory Practice I)
+---
 
-Practicals and assignments related to:
+## LP-I (Laboratory Practice I)
+
+Includes practical work related to:
 
 * System Programming and Operating Systems (SPOS)
 * Distributed Systems (DS)
@@ -46,44 +66,38 @@ Practicals and assignments related to:
 
 ---
 
-## Why I Created This Repository
+# Purpose of This Repository
 
-I created this repository for several reasons:
+This repository helps me:
 
-* To keep semester work organized.
-* To maintain a backup of practical files.
-* To track my learning progress.
-* To practice Git and GitHub regularly.
-* To build consistency through small and regular contributions.
-* To create a reference that can help me during viva, practical exams, and semester-end preparation.
+* Maintain organized semester-wise academic work.
+* Keep a backup of practical implementations and assignments.
+* Track my technical learning progress.
+* Practice version control using Git and GitHub.
+* Build consistency through regular contributions.
+* Create a reference resource for practical exams, viva preparation, and future revision.
 
 ---
-
-
 
 ## Repository Structure
 
 ```text
 SPPU-CSE-SEM5-Codes
 │
-├── DBMS
-├── CNS
-├── TOC
-├── LP-1
+├── DBMS/
+├── CNS/
+├── TOC/
+├── LP-1/
 └── README.md
 ```
 
-The structure may change as new practicals, notes, and assignments are added.
+The structure may evolve as additional practicals, notes, and learning resources are added.
 
 ---
-
 
 ## Author
 
 **Khemraj Rajput**
 
 Computer Engineering Student
-
 Savitribai Phule Pune University (SPPU)
-
-
